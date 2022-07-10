@@ -5,7 +5,7 @@ use std::fs;
 use std::io;
 use std::ops::{Deref, DerefMut};
 use std::process;
-use std::time::{Duration, Instant};
+use std::time::Instant;
 use thiserror::Error;
 
 #[derive(Error, Debug, Clone)]
